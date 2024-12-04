@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Features | Evenzet</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #f4f7f6;
+            color: #333;
+        }
+        header {
+            background-color: #343a40;
+            color: white;
+            padding: 15px 0;
+            text-align: center;
+        }
+        header h1 {
+            font-size: 2.5em;
+            margin: 0;
+        }
+        .features-container {
+            max-width: 1200px;
+            margin: 40px auto;
+            padding: 20px;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .features-container h2 {
+            color: #007BFF;
+            text-align: center;
+            font-size: 2em;
+            margin-bottom: 20px;
+        }
+        .features-list {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+            gap: 30px;
+            margin-top: 20px;
+        }
+        .feature-card {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            transition: transform 0.3s ease;
+        }
+        .feature-card:hover {
+            transform: translateY(-10px);
+        }
+        .feature-card img {
+            max-width: 100%;
+            border-radius: 8px;
+            margin-bottom: 20px;
+        }
+        .feature-card h4 {
+            color: #007BFF;
+            font-size: 1.5em;
+            margin-bottom: 15px;
+        }
+        .feature-card p {
+            color: #555;
+            font-size: 1.1em;
+            line-height: 1.6;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #343a40;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Evenzet - Features</h1>
+</header>
+
+<div class="features-container">
+    <h2>Our Key Features</h2>
+    <div class="features-list">
+        <div class="feature-card">
+            <img src="https://via.placeholder.com/500x300" alt="Event Management">
+            <h4>Event Management</h4>
+            <p>Create, manage, and schedule events with ease. Customize details, set dates, and manage attendees from a single platform.</p>
+        </div>
+        <div class="feature-card">
+            <img src="https://via.placeholder.com/500x300" alt="Ticketing">
+            <h4>Ticketing System</h4>
+            <p>Manage ticket sales and availability. Offer multiple ticket types, set prices, and track ticket sales in real time.</p>
+        </div>
+        <div class="feature-card">
+            <img src="https://via.placeholder.com/500x300" alt="Event Updates">
+            <h4>Event Updates & Notifications</h4>
+            <p>Send real-time updates and notifications to attendees. Keep everyone informed about any event changes or updates.</p>
+        </div>
+        <div class="feature-card">
+            <img src="https://via.placeholder.com/500x300" alt="Attendee Registration">
+            <h4>Attendee Registration</h4>
+            <p>Allow attendees to easily register for events, manage their registration details, and receive important event information.</p>
+        </div>
+        <div class="feature-card">
+            <img src="https://via.placeholder.com/500x300" alt="Admin Dashboard">
+            <h4>Admin Dashboard</h4>
+            <p>Monitor all events, manage users, and oversee system settings. Gain insights through statistics and event reports.</p>
+        </div>
+        <div class="feature-card">
+            <img src="https://via.placeholder.com/500x300" alt="Customizable Settings">
+            <h4>Customizable Settings</h4>
+            <p>Tailor the system to fit your needs with flexible configurations for event types, ticketing, and more.</p>
+        </div>
+    </div>
+</div>
+
+<footer>
+    <p>&copy; 2024 Evenzet. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>

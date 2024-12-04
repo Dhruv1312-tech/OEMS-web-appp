@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Contact Us | Evenzet</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #f4f7f6;
+            color: #333;
+        }
+        header {
+            background-color: #343a40;
+            color: white;
+            padding: 15px 0;
+            text-align: center;
+        }
+        header h1 {
+            font-size: 2.5em;
+            margin: 0;
+        }
+        .contact-container {
+            max-width: 1200px;
+            margin: 40px auto;
+            padding: 20px;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .contact-container h2 {
+            color: #007BFF;
+            text-align: center;
+            font-size: 2em;
+            margin-bottom: 20px;
+        }
+        .contact-info {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 40px;
+        }
+        .contact-info div {
+            flex: 1;
+            padding: 20px;
+            text-align: center;
+        }
+        .contact-info h3 {
+            color: #007BFF;
+            font-size: 1.5em;
+            margin-bottom: 10px;
+        }
+        .contact-info p {
+            font-size: 1.2em;
+            color: #555;
+        }
+        .contact-form {
+            margin-top: 40px;
+            text-align: center;
+        }
+        .contact-form form {
+            max-width: 600px;
+            margin: 0 auto;
+            background-color: #fff;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .contact-form input, .contact-form textarea {
+            width: 100%;
+            padding: 15px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 1em;
+        }
+        .contact-form button {
+            background-color: #007BFF;
+            color: white;
+            padding: 15px 30px;
+            border: none;
+            border-radius: 5px;
+            font-size: 1.1em;
+            cursor: pointer;
+        }
+        .contact-form button:hover {
+            background-color: #0056b3;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #343a40;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Evenzet - Contact Us</h1>
+</header>
+
+<div class="contact-container">
+    <h2>Get in Touch</h2>
+    
+    <div class="contact-info">
+        <div>
+            <h3>Address</h3>
+            <p>GC 503, Aditya Megacity, Indirapuram, Ghaziyabad, UP</p>
+        </div>
+        <div>
+            <h3>Contact</h3>
+            <p>Phone: 7827755416</p>
+            <p>Email: <a href="mailto:dhrruvgoel14@gmail.com">dhrruvgoel14@gmail.com</a></p>
+        </div>
+        <div>
+            <h3>Our Team</h3>
+            <p>Dhruv Goel (Project Manager)</p>
+            <p>Swati Singh</p>
+            <p>Neha Kumari</p>
+            <p>Apoorv Aryan</p>
+        </div>
+    </div>
+
+    <div class="contact-form">
+        <h3>Send Us a Message</h3>
+        <form action="#" method="post">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" placeholder="Your Message" rows="6" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </div>
+</div>
+
+<footer>
+    <p>&copy; 2024 Evenzet. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
