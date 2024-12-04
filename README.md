@@ -1,1 +1,1 @@
-# OEMS-web-appp
+# OEMS-Online event management sysyem
