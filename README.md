@@ -7,7 +7,9 @@ Member Details :-
 
 # Neha Kumari - ( Core Member )
 Frontend Developer 
+
 HTML5 + CSS3: Base structure and styles.
+
 React.js with JSX: Component-based UI development.
 
 
