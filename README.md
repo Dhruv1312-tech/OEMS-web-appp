@@ -1,3 +1,22 @@
+Member Details :-
+
+
+# Dhruv Goel -  ( Project Leader )
+
+
+
+# Neha Kumari - ( Core Member )
+Frontend Developer 
+HTML5 + CSS3: Base structure and styles.
+React.js with JSX: Component-based UI development.
+
+
+# Swati Singh - ( Core Member )
+Bootstrap: Quick and responsive design.
+Axios or Fetch API: To make API calls to the backend.
+Node.js with Webpack: For development tools and build processes.
+
+
 # OEMS-Online event management sysyem
 
 Evenzet - Event Management System
