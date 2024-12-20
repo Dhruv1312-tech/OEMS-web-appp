@@ -1,5 +1,5 @@
 
-# Online Management System
+# Online Event Management System
 
 ## Overview
 The **Online Management System** is a comprehensive solution designed to simplify and streamline management processes. The system is built to handle various tasks efficiently with an easy-to-use interface and robust backend functionality.
