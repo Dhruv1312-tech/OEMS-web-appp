@@ -4,4 +4,17 @@
 
 <web-app>
   <display-name>Archetype Created Web Application</display-name>
+  
+  <!-- Servlet Configuration -->
+  <servlet>
+    <servlet-name>EventServlet</servlet-name>
+    <servlet-class>com.user.servlet.EventServlet</servlet-class>
+  </servlet>
+
+  <!-- Servlet Mapping -->
+  <servlet-mapping>
+    <servlet-name>EventServlet</servlet-name>
+    <url-pattern>/event</url-pattern>
+  </servlet-mapping>
+  
 </web-app>
