@@ -20,8 +20,27 @@ public class EventServlet extends HttpServlet {
     }
 
     @Override
-    protected void doPost(HttpServletRequest request, HttpServletResponse response)
-            throws ServletException, IOException {
-        // Handle POST requests here
+protected void doPost(HttpServletRequest request, HttpServletResponse response)
+        throws ServletException, IOException {
+    // Retrieve form data from the request
+    String name = request.getParameter("name");
+    String date = request.getParameter("date");
+    String location = request.getParameter("location");
+
+    // Optionally, you can validate the data here
+    if (name == null || name.isEmpty() || date == null || date.isEmpty() || location == null || location.isEmpty()) {
+        response.setContentType("text/html");
+        response.getWriter().println("<h1>Error: All fields are required!</h1>");
+        return; // Stop further processing if validation fails
     }
+
+    // Set attributes for forwarding to JSP
+    request.setAttribute("eventName", name);
+    request.setAttribute("eventDate", date);
+    request.setAttribute("eventLocation", location);
+
+    // Forward data to a JSP for display
+    RequestDispatcher dispatcher = request.getRequestDispatcher("event_confirmation.jsp");
+    dispatcher.forward(request, response);
 }
+
