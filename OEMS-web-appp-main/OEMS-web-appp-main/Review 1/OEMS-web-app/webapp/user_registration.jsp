@@ -4,21 +4,29 @@
     <title>User Registration</title>
 </head>
 <body>
-    <h2>User Registration Form</h2>
+    <h2>Register</h2>
+
+    <% 
+        String errorMessage = (String) request.getAttribute("errorMessage");
+        if (errorMessage != null) {
+    %>
+        <p style="color: red;"><%= errorMessage %></p>
+    <% } %>
+
     <form action="userRegistration" method="post">
-        <label for="username">Username:</label>
-        <input type="text" id="username" name="username" required/><br/><br/>
+        <label for="username">Username:</label><br>
+        <input type="text" id="username" name="username" required><br>
         
-        <label for="email">Email:</label>
-        <input type="email" id="email" name="email" required/><br/><br/>
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required><br>
         
-        <label for="password">Password:</label>
-        <input type="password" id="password" name="password" required/><br/><br/>
+        <label for="password">Password:</label><br>
+        <input type="password" id="password" name="password" required><br>
         
-        <label for="confirmPassword">Confirm Password:</label>
-        <input type="password" id="confirmPassword" name="confirmPassword" required/><br/><br/>
+        <label for="confirmPassword">Confirm Password:</label><br>
+        <input type="password" id="confirmPassword" name="confirmPassword" required><br>
         
-        <input type="submit" value="Register"/>
+        <button type="submit">Register</button>
     </form>
 </body>
 </html>
